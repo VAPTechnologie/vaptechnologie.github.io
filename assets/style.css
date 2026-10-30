@@ -17,10 +17,10 @@ html{scroll-padding-top:110px}.contact-address{overflow-wrap:anywhere;color:var(
 
 .legal-page h2{margin-top:32px}.legal-links{margin-top:14px;display:flex;gap:20px;flex-wrap:wrap}.legal-page a{text-decoration:underline;overflow-wrap:anywhere}
 
-/* Catalogue validé : accueil français uniquement. */
-@media(min-width:851px){html[lang="fr"] #logiciels .cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
-#logiciels .pill.orange{border-color:#c77c32;color:#ffbe75;background:#a854141a}
-#logiciels .pill.red{border-color:#b96068;color:#ffa4ad;background:#a639471a}
-#logiciels .cardbody button{font:inherit;font-weight:650;cursor:default}
-#logiciels .cardbody button:disabled{opacity:.65}
-#logiciels .cardbody button:hover{filter:none;color:#001627}
+/* Validated catalogue: French and English homepages. */
+@media(min-width:851px){:is(#logiciels,#software) .cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+:is(#logiciels,#software) .pill.orange{border-color:#c77c32;color:#ffbe75;background:#a854141a}
+:is(#logiciels,#software) .pill.red{border-color:#b96068;color:#ffa4ad;background:#a639471a}
+:is(#logiciels,#software) .cardbody button{font:inherit;font-weight:650;cursor:default}
+:is(#logiciels,#software) .cardbody button:disabled{opacity:.65}
+:is(#logiciels,#software) .cardbody button:hover{filter:none;color:#001627}
