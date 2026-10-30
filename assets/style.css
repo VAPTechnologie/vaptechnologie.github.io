@@ -16,3 +16,11 @@ html{scroll-padding-top:110px}.contact-address{overflow-wrap:anywhere;color:var(
 .contact-disclosure>summary{list-style:none;width:fit-content}.contact-disclosure>summary::-webkit-details-marker{display:none}.contact-disclosure>summary:focus-visible{outline:3px solid #44ceff;outline-offset:4px}.contact-disclosure[open]>summary{margin-bottom:12px}.contact-options .actions{margin-top:12px}
 
 .legal-page h2{margin-top:32px}.legal-links{margin-top:14px;display:flex;gap:20px;flex-wrap:wrap}.legal-page a{text-decoration:underline;overflow-wrap:anywhere}
+
+/* Catalogue validé : accueil français uniquement. */
+@media(min-width:851px){html[lang="fr"] #logiciels .cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+#logiciels .pill.orange{border-color:#c77c32;color:#ffbe75;background:#a854141a}
+#logiciels .pill.red{border-color:#b96068;color:#ffa4ad;background:#a639471a}
+#logiciels .cardbody button{font:inherit;font-weight:650;cursor:default}
+#logiciels .cardbody button:disabled{opacity:.65}
+#logiciels .cardbody button:hover{filter:none;color:#001627}
